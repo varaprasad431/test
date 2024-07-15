@@ -1,0 +1,428 @@
+first practise of the day learning - 7/15/2024 -monday
+
+
+root@ip-172-31-82-184:/home/ubuntu# cat history.file 
+    1  ll
+    2  touch prasad
+    3  ll
+    4  ls -a
+    5  ll -a
+    6  cat prasad
+    7  more prasad
+    8  cat >prasad 
+    9  more prasad
+   10  cp prasad prasad1
+   11  ll
+   12  cat prasad1
+   13  rm prasad1
+   14  ll
+   15  rm -f prasad
+   16  ll
+   17  rm -f*
+   18  rm -f *
+   19  rm -rf *
+   20  ll
+   21  mkdir prasad
+   22  mv .profile  /prasad/
+   23  ll
+   24  cd prasad/
+   25  pwd
+   26  cd ..
+   27  ll
+   28  mv .profile /root/prasad
+   29  ll
+   30  cd prasad/
+   31  ll
+   32  touch tension{1..8}
+   33  ll
+   34  rm -f t*
+   35  ll
+   36  mkdir /prasas/varaprasad/yadav
+   37  mkdir /prasad/varaprasad/yadav
+   38  mkdir /root/prasad/varaprasad/yadav
+   39  cd ..
+   40  mkdir /root/prasad/varaprasad/yadav
+   41  touch mava{1..99}
+   42  ll
+   43  rm -f mava{2..97
+   44  rm -f mava{2..97}
+   45  ll
+   46  echo "prasad"
+   47  echo " nv nenu okati " > prasad1.txt
+   48  ll
+   49  more prasad
+   50  more prasad1.txt 
+   51  ll
+   52  pwd
+   53  mkdir /root/prasad2/varaprasad
+   54  mkdir --help
+   55  mkdir prasad1
+   56  mkdir prasad2/prasad3/prasad4
+   57  mkdir -p  prasad2/prasad3/prasad4
+   58  ll
+   59  tree
+   60  apt install tree -y
+   61  yum install tree- y
+   62  yum install tree -y
+   63  apt update -y
+   64  apt list --upgradable
+   65  apt install tree
+   66  tree
+   67  touch prasad/nenunv.pem
+   68  tree
+   69  head
+   70  ls
+   71  vim nenu.txt
+   72  cat nenu.txt 
+   73  cat nenu.txt | head
+   74  cat nenu.txt | head -2
+   75  cat nenu.txt | tail -1
+   76  cat nenu.txt | sed -n '3,5p'
+   77  wc nenu.txt 
+   78  vi nenu.txt 
+   79  l
+   80  ll
+   81  chmod 777 prasad1.txt
+   82  ll
+   83  chmod u=r,g=r,o=r prasad1.txt
+   84  ll
+   85  chmod +x prasad1.txt 
+   86  ll
+   87  useradd prasad
+   88  cat/etc/passwd
+   89  cat /etc/passwd
+   90  getent passwd
+   91  ls
+   92  ls /home/
+   93  tenent passwd
+   94  getent passwd
+   95  ls /home/
+   96  cat /etc/group
+   97  cd /home/
+   98  ls
+   99  ll
+  100  ls -a
+  101  ll
+  102  cd ..
+  103  ll
+  104  cd /root/
+  105  ll
+  106  chown prasad prasad1.txt 
+  107  ll
+  108  chgrp prasad prasad1.txt 
+  109  ll
+  110  id prasad
+  111  group add prasad
+  112  group add prasad23
+  113  apt install group
+  114  apt update
+  115  apt install group
+  116  username
+  117  hostname
+  118  hostname -i
+  119  group
+  120  groups add prasad
+  121  grop add prasad
+  122  apt install grop
+  123  gropadd  prasad 
+  124  grop add prasad
+  125  group --help
+  126  exit
+  127  ll
+  128  cat /etc/passwd
+  129  cat /etc/passwd/
+  130  ll
+  131  cd /etc/
+  132  ll
+  133  cd passwd
+  134  cat passwd
+  135  cd ../..
+  136  ll
+  137  cd /r
+  138  cd /home/
+  139  ll
+  140  tree
+  141  cd ubuntu/
+  142  ll
+  143  id
+  144  addgroup prasad
+  145  addgroup prasad1
+  146  usermod -aG devops
+  147  usermod -aG prasad
+  148  usrdel prasad
+  149  deluser prasad
+  150  useradd varaprasad
+  151  passwd varaprasad
+  152  visudo
+  153  visudo | grep root
+  154  ls
+  155  ll
+  156  ll
+  157  ls
+  158  ll -a
+  159  df -k
+  160  cat /etc/passwd
+  161  addgroup prasadnew
+  162  adduser prasadnew
+  163  adduser prasadsecond
+  164  ls /home/
+  165  ll /home/
+  166  visudo 
+  167  visudo 
+  168  visudo 
+  169  ip prasad
+  170  ll
+  171  cd /r
+  172  cd /root/
+  173  ll
+  174  ll
+  175  ls
+  176  ls -a
+  177  cat /etc/passwd
+  178  deluser prasadsecond
+  179  visudo
+  180  cat /etc/passwd
+  181  sudi
+  182  visudo
+  183  visudo
+  184  visudo
+  185  visudo
+  186  cat /etc/sudoers.tmp
+  187  visudo
+  188  visudo
+  189  man grep
+  190  ll
+  191  ls
+  192  tree
+  193  cat prasad1.txt | grep -i mkdir
+  194  cat prasad1.txt | grep -v mkdir
+  195  grep 'nv\|okati' prasad1.txt 
+  196  grep 'nv\okati' prasad1.txt 
+  197  grep 'nv\|okati' prasad1.txt 
+  198  sed 's/nv/nvu/' prasad1.txt 
+  199  git -v
+  200  git -version
+  201  git --version
+  202  git init
+  203  git add prasad1.txt 
+  204  git status
+  205  git commit -m "new files"
+  206  git status
+  207  git log
+  208  git log --oneline
+  209  git config user.name "varaprasad"
+  210  git config user.email "vararpasad@gmail.com"
+  211  git log
+  212  touch file{1..3}
+  213  git status
+  214  git add file*
+  215  git status
+  216  git commit -m " added the files1-3"
+  217  git log
+  218  git ignore
+  219  git ignore nenu.txt
+  220  git add nenu.txt 
+  221  git ignore nenu.txt
+  222  ls
+  223  ls -a
+  224  vi .gitignore
+  225  vi .gitignore
+  226  git add nenu.txt 
+  227  git status
+  228  git commit -m " prasd"
+  229  git log
+  230  git restore
+  231  git restore 27b6cc5526c8700c8d772997d5c4e053053cc56a
+  232  ll
+  233  cd ..
+  234  ll
+  235  cd ..
+  236  ll
+  237  cd /root
+  238  ll
+  239  git status
+  240  git log
+  241  git restore nenu.txt 
+  242  git status
+  243  git add sudo
+  244  git status
+  245  git restore
+  246  git restore sudo 
+  247  git status
+  248  git restore --staged sudo 
+  249  git status
+  250  git branh
+  251  git branch
+  252  git branch -b varaprasad
+  253  git branch  varaprasad
+  254  git brnach
+  255  cd ~
+  256  cd /root/
+  257  ls
+  258  git init
+  259  git status
+  260  git branch
+  261  git checkout varaprasad
+  262  ls
+  263  git branch
+  264  git checkout -b yadav
+  265  git branch
+  266  mkdir yadavfiles
+  267  tree
+  268  cd yadavfiles/
+  269  touch yadav{1..999}
+  270  treee
+  271  tree
+  272  cd ..
+  273  git branch
+  274  git checkout master
+  275  git brnach
+  276  git branch
+  277  git merge
+  278  git checkout yadav
+  279  git merge
+  280  ll
+  281  cd yadavfiles/
+  282  ll
+  283  cd ..
+  284  ll
+  285  git branch
+  286  git merge master
+  287  git checkout master
+  288  git merge varaprasad
+  289  git merger yadav
+  290  git merge yadav
+  291  git rebase
+  292  git rebase yadav
+  293  git rebase master
+  294  git remote add orgin
+  295  git remote add origin https://github.com/varaprasad431/Learning.git
+  296  ll
+  297  git remote add origin https://gith
+  298  git remote add origin https://github.com/varaprasad431/test.git 
+  299  git remoter rm origin
+  300  git remote rm origin
+  301  git remote add origin https://github.com/varaprasad431/test.git 
+  302  git push origin master
+  303  ls
+  304  git checkout -b nadhi
+  305  git branch
+  306  touch file2
+  307  ll
+  308  git push origin nadhi
+  309  git checkout varaprasad
+  310  mkdir /root/prasad/new/files
+  311  mkdir /prasad/new/files
+  312  mkdir -p /root/prasad/new/files
+  313  git push origin varaprasad
+  314  git pull master
+  315  git pull origin master
+  316  git branch -d nadhi
+  317  git revert nadhi
+  318  git branch
+  319  git branch -d varaprasad
+  320  git brnach -D varaprasad
+  321  git branch -D varaprasad
+  322  git branch -d yadav
+  323  git revert yadav
+  324  git branch -m varaprasad varaprasadkatteboina
+  325  git brnach
+  326  git branch
+  327  git fetch
+  328  git stash nenu.txt 
+  329  touch nine.txt
+  330  git add nine.txt 
+  331  git status
+  332  git stash nine.txt 
+  333  git revert nine.txt 
+  334  git restore nine.txt 
+  335  git status
+  336  git stash nine.txt 
+  337  git status
+  338  git logs
+  339  git log
+  340  git add nine.txt 
+  341  git log
+  342  git branch
+  343  git stash
+  344  ls
+  345  git stash pop
+  346  ls
+  347  git stash
+  348  ls
+  349  git stash clear
+  350  ls
+  351  git stash pop
+  352  git cherry-pick
+  353  git cherry-pick -e
+  354  git cherry-pick -x
+  355  git fork
+  356  git clone https://github.com/varaprasad431/Dockerproject.git
+  357  ls
+  358  cd Dockerproject/
+  359  ls
+  360  git diff
+  361  cd ..
+  362  git diff
+  363  git git
+  364  mvn --version
+  365  apt isntall maven
+  366  apt update
+  367  wget https://archive.apache.org/dist/maven/binaries/apache-maven-3.2.2-bin.tar.gz
+  368  apt install java-1.8.0 openjdk
+  369  apt update
+  370  apt install java-1.8.0 openjdk
+  371  apt install default-jre
+  372  java -v
+  373  apt install java-1.8.0 openjdk -y
+  374  sudo add-apt-repository ppa:openjdk-r/ppa  # only Ubuntu 17.4 and earlier
+  375  sudo apt update
+  376  apt search openjdk
+  377  apt install openjdk-1.8.0-jdkapt install openjdk-
+  378  apt install openjdk-8-jdk
+  379  $ wget https://download.java.net/java/GA/jdk13.0.1/cec27d702aa74d5a8630c65ae61e4305/9/GPL/openjdk-13.0.1_linux-x64_bin.tar.gz
+  380  $ tar -xvf openjdk-13.0.1_linux-x64_bin.tar.gz
+  381  $ mv jdk-13.0.1 /opt/
+  382  wget https://download.java.net/java/GA/jdk13.0.1/cec27d702aa74d5a8630c65ae61e4305/9/GPL/openjdk-13.0.1_linux-x64_bin.tar
+  383  java --version
+  384  apt install maven 
+  385  mvn -v
+  386  mvn archivetype:generate
+  387  mvn archivetype:generate -e
+  388  mvn archivetype:generate -X
+  389  ll
+  390  tar -xvdf apache-maven-3.2.2-bin.tar.gz 
+  391  tar –xvzf apache-maven-3.2.2-bin.tar.gz 
+  392  tar --help
+  393  apt-get install tar
+  394  tar –xvzf apache-maven-3.2.2-bin.tar.gz 
+  395  mvn archivetype:generate -X
+  396  ls
+  397  tar –x apache-maven-3.2.2-bin.tar.gz 
+  398  tar --usage
+  399  tar --help
+  400  tar -xf apache-maven-3.2.2-bin.tar.gz 
+  401  ls
+  402  mvn archivetype:generate 
+  403  mvn compile\
+  404  mvn compile
+  405  ls
+  406  cd apache-maven-3.2.2
+  407  ls
+  408  ll
+  409  cat LICENSE 
+  410  mvn compile
+  411  mvn test
+  412  tree
+  413  mvn package
+  414  mvn isntall
+  415  mvn install 
+  416  mvn clean
+  417  cd ..
+  418  mvn clean
+  419  mvn -e
+  420  mvn -X
+  421  rm -rf *
+  422  ll
+  423  exit
+  424  history
