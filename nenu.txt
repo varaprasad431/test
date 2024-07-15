@@ -1,0 +1,7 @@
+To create new directory use "mkdir" command. For example, to create directory TMP in the current directory issue either "mkdir TMP" or "mkdir ./TMP". It's a good practice to organize files by creating directories and putting files inside of them instead of having all files in one directory. Try to avoid using spaces and other special characters (except "_") in file names on Linux. While almost any character can be used in a file name, it's more complicated to refer to such names in CLI commands. Now, that you've created directory TMP in the current directory, what output do you think you will get if you issue "ls -a TMP" command? Check yourself.
+
+In a graphical desktop environment to go to a different directory (folder), you would just click on the directory name. In the CLI you will use "cd" command (which stands for "change directory"). To go to the newly created TMP directory, issue "cd TMP". Issue "pwd" to verify that you're now in the new directory.
+
+"cd .." command will take you one level up. "cd /" will change current directory to root directory, while "cd" with no arguments will take you to your home directory.
+
+Sometimes you may need to change directory to somewhere else, and then go back to the directory you were in. In this case you can use “cd -“ command which is equivalent to “cd $OLDPWD”.
